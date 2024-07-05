@@ -696,10 +696,10 @@ Python在以下领域都有用武之地。
 
   - 通过模型创建表（正向工程），例如在Django项目中可以通过下面的命令创建二维表。
 
-    ```Shell
+```Shell
     python manage.py makemigrations app
     python manage.py migrate
-    ```
+```
 
   - 使用PowerDesigner绘制物理模型图。
 
@@ -707,9 +707,9 @@ Python在以下领域都有用武之地。
 
   - 通过数据表创建模型（反向工程），例如在Django项目中可以通过下面的命令生成模型。
 
-    ```Shell
+```Shell
     python manage.py inspectdb > app/models.py
-    ```
+```
 
 #### 第92天：[Docker容器技术详解](./Day91-100/92.Docker容器技术详解.md)
 

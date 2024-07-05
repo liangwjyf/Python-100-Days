@@ -8,33 +8,33 @@ Python中提供了非常丰富的容器型数据类型，大家最为熟悉的�
 
 - 取出最大值
 
-    ```Python
+```Python
     max(my_dict.values())
-    ```
+```
 
 - 取值最大值的键
 
-    ```Python
+```Python
     max(my_dict, key=my_dict.get)
-    ```
+```
 
 - 取出最大值的键和值
 
-    ```python
+```python
      max(my_dict.items(), key=lambda x: x[1])
-    ```
+```
 
     或
 
-    ```Python
+```Python
     import operator
     
     max(my_dict.items(), key=operator.itemgetter(1))
-    ```
+```
     
     > **说明**：上面用到了`operator`模块的`itemgetter`函数，这个函数的的作用如下所示。在上面的代码中，`itemgetter`帮我们获取到了二元组中的第2个元素。
     >
-    > ```Python
+    >```Python
     > def itemgetter(*items):
     >     if len(items) == 1:
     >         item = items[0]
@@ -44,7 +44,7 @@ Python中提供了非常丰富的容器型数据类型，大家最为熟悉的�
     >         def g(obj):
     >             return tuple(obj[item] for item in items)
     >     return g
-    > ```
+    >```
 
 ### 统计列表元素出现次数
 
@@ -121,25 +121,25 @@ list(zip_longest('abc', [1, 2, 3, 4]))
 
 - 浅拷贝
 
-    ```Python
+```Python
     thy_list = my_list[:]
-    ```
+```
 
     或
 
-    ```Python
+```Python
     import copy
     
     thy_list = copy.copy(my_list)
-    ```
+```
 
 - 深拷贝
 
-    ```Python
+```Python
     import copy
     
     thy_list = copy.deepcopy(my_list)
-    ```
+```
 
 ### 对两个或多个列表对应元素进行操作
 
