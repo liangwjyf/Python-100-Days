@@ -16,3 +16,4 @@ __pycache__
 .history
 _book
 package-lock.json
+node_modules

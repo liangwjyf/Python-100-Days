@@ -30,7 +30,7 @@
     "pageNumbers": false,
     "paperSize": "a4"
   },
-  "plugins": [],
+  "plugins": ["minifier"],
   "title": "Python 100",
   "variables": {}
 }
